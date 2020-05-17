@@ -2,15 +2,27 @@
   "name": "mmt-metadata",
   "version": "1.0.0",
   "description": "first stab at fiddling with sbot",
-  "main": "mmt-metadata.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron src/main.js"
   },
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blockades/mmt-metadata.git"
+  },
   "license": "ISC",
   "dependencies": {
+    "bitcoinjs-lib": "^3.3.2",
+    "crypto-js": "^3.1.9-1",
+    "deepmerge": "^2.1.0",
+    "electron": "^1.4.6",
+    "electron-reload": "^1.2.2",
+    "fs": "0.0.1-security",
     "pull-stream": "^3.6.7",
+    "request": "^2.85.0",
     "sbot": "0.0.3",
-    "ssb-client": "^4.5.7"
+    "ssb-client": "^4.5.7",
+    "ssb-keys": "^7.0.14"
   }
 }
